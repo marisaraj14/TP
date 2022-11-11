@@ -11,8 +11,7 @@ export default function ContactUs() {
       />
       <div>
         <span className="contactUsTitle">
-          If you believe,
-          <br />{" "}
+          If you believe {" "}
           <span className="contactUsTitle_bold">we’re right for you.</span>
         </span>
         <p className="contactUsEmail">
