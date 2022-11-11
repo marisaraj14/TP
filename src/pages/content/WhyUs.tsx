@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function WhyUs() {
   return (
-    <div className="whyusContainer">
+    <div className="whyusContainer" id="whyus">
       <span className="whyusTitle">
         Why <span className="whyusTitle_bold">Us?</span>
       </span>

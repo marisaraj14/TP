@@ -1,10 +1,10 @@
 [
   {
     "name": "Service",
-    "path": "/service"
+    "path": "#service"
   },
   {
     "name": "Why Us",
-    "path": "/whyus"
+    "path": "#whyus"
   }
 ]

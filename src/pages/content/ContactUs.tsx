@@ -19,7 +19,7 @@ export default function ContactUs() {
           Write to us at{" "}
           <a href="mailto:admin@techparsona.com">admin@techparsona.com</a>
         </p>
-        <motion.div  whileHover={{ scale: 1.1 , x:20}}>
+        <motion.div  whileHover={{ scaleY: 1.05}}     whileTap={{ scale: 0.9 }}>
           <a href="mailto:admin@techparsona.com" className="contactusButton">
             Contact Us
           </a>

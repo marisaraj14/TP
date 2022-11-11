@@ -16,7 +16,7 @@ export default function Service() {
   };
 
   return (
-    <div className="serviceContainer">
+    <div className="serviceContainer" id="service">
       <Layout>
         <span className="serviceName">
           Our <span className="serviceName_bold">Services</span>{" "}

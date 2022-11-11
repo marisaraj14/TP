@@ -1,10 +1,35 @@
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
+import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import "../../styles/index.scss";
 import fields from "./fields/data.json";
 import Layout from "./Layout";
 
 export default function NavBar() {
+  const [modal, setOpenModal] = useState<boolean>(false);
+
   return (
+    <>{modal && (
+      <div className="modalContainer">
+        <img src="/media/closeicon.png" className="modalContainer_close" alt="close icon"
+        onClick={()=> setOpenModal(false)}/>
+        <div className="modalContainer_sub">
+          {fields.map((item) => (
+            <a
+              href={item.path}
+              onClick={() => setOpenModal(false)}
+              className="modalContainer_title"
+            >
+              {item.name}
+            </a>
+          ))}
+          <a href="mailto:admin@techparsona.com" className="modalContainer_button"
+          onClick={() => setOpenModal(false)}>
+            Contact Us
+          </a>
+        </div>
+      </div>
+    )}
     <div className="navContainer">
       <Layout>
         <motion.p
@@ -19,13 +44,17 @@ export default function NavBar() {
               src="/media/svg/navBarIcon.svg"
               alt="links"
               className="linkContainer"
+              onClick={() => setOpenModal(!modal)}
             />
             <div className="navBarContainer">
               {fields.map((item) => (
-                <motion.button whileHover={{ scale: 1.1,  }} animate={{color:"#4B8EB0"}}>
-                  <a className="fields" href={item.path}>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  animate={{ color: "#4B8EB0" }}
+                >
+                  <AnchorLink className="fields" href={item.path}>
                     {item.name}
-                  </a>
+                  </AnchorLink>
                 </motion.button>
               ))}
               <motion.button whileHover={{ scale: 1.1 }}>
@@ -37,6 +66,8 @@ export default function NavBar() {
           </div>
         </motion.p>
       </Layout>
+     
     </div>
+    </>
   );
 }
