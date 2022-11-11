@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Service",
+    "path": "/service"
+  },
+  {
+    "name": "Why Us",
+    "path": "/whyus"
+  }
+]

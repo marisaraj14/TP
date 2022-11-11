@@ -1,0 +1,23 @@
+[
+    {
+        "title":"Customer Centric",
+        "description":"Customer first with positive experience all times",
+        "imageUrl":"/media/customercentric.png"
+    },
+    {
+        "title":"Stratergic Thinking",
+        "description":"Analyse critical factors and variables that influence long-term success of a business",
+        "imageUrl":"/media/stratergicthinking.png"
+    },
+    {
+        "title":"Service Offerings",
+        "description":"Mutiple services offering in IT delivery and IT Services industry",
+        "imageUrl":"/media/serviceofferings.png"
+    },
+    {
+        "title":"Optimized Delivery",
+        "description":"Better delivery of services with quality work",
+        "imageUrl":"/media/optimiseddelivery.png"
+    }
+
+]

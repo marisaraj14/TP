@@ -1,0 +1,40 @@
+@import "navBar";
+@import "mainContent";
+@import "service";
+@import "whyus";
+@import "contactus";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;800&display=swap');
+
+$primaryColor: #4b8eb0;
+$primaryColor-light: #85b2c9;
+$primaryColor-dark: #12394d;
+$secondaryColor: #fede65;
+$desktop: 1440px;
+$tablet: 768px;
+$mobile: 375px;
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+.layoutContainer {
+  margin-left: 360px;
+  margin-right: 360px;
+
+  @media screen and (max-width: $desktop) {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
