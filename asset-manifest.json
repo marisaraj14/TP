@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TP/static/css/main.a1114f9c.css",
+    "main.js": "/TP/static/js/main.7f6bfe55.js",
+    "static/js/787.536ff570.chunk.js": "/TP/static/js/787.536ff570.chunk.js",
+    "static/media/Sansation_Bold.ttf": "/TP/static/media/Sansation_Bold.01acb21b3a650eee9aa6.ttf",
+    "index.html": "/TP/index.html",
+    "main.a1114f9c.css.map": "/TP/static/css/main.a1114f9c.css.map",
+    "main.7f6bfe55.js.map": "/TP/static/js/main.7f6bfe55.js.map",
+    "787.536ff570.chunk.js.map": "/TP/static/js/787.536ff570.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1114f9c.css",
+    "static/js/main.7f6bfe55.js"
+  ]
+}
