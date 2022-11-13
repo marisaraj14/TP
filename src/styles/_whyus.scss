@@ -9,13 +9,19 @@
     flex-direction: row;
     justify-content: space-evenly;
 
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: 1008px) {
       display: none;
     }
   }
 
   &_mobile {
     display: none;
+
+    @media screen and (max-width: 1008px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
 
     @media screen and (max-width: $tablet) {
       display: flex;
@@ -51,6 +57,20 @@
   padding-left: 12px;
   padding-right: 12px;
   display: flex;
+
+  @media screen and (max-width: 1008px) {
+    width: 270px;
+    height: 90px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 312px;
+    height: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
 .whyusTextContainer {
@@ -130,29 +150,29 @@
   position: absolute;
   width: 100%;
   padding-top: 10px;
-  padding-left:5px;
-  padding-right:5px;
+  padding-left: 5px;
+  padding-right: 5px;
   top: 0;
   margin-top: 20px;
   border-radius: 40px;
   transition: transform 400ms;
   background-color: $secondaryColor;
   // transform: translate3d(0, calc(100% - 3.5rem), 0);
-  transform: translate(0,  calc(100% - 3.5rem))
+  transform: translate(0, calc(100% - 3.5rem));
 }
 
 .item__body {
   flex-grow: 1;
   padding: 1rem;
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   p {
     margin: 0;
   }
 }
 
-.dot{
+.dot {
   font-size: 40px;
-  color:$primaryColor;
+  color: $primaryColor;
 }

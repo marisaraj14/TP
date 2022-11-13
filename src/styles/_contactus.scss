@@ -1,88 +1,118 @@
 @use "variables";
 
-.contactusContainer{
-    display: flex;
-    background-color: $primaryColor-light;
-    border-radius: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: 'Inter', sans-serif;
-    padding-right: 70px;
-    padding-left: 70px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap:50px;
-    @media screen and (max-width: 900px) {
-        gap:10px;
-    }
-    @media screen and (max-width: 515px) {
-        flex-direction: column;
-        padding-right: 0px;
-        padding-left: 0px;
-        gap:20px;
-    }
+.contactusContainer {
+  display: flex;
+  background-color: $primaryColor-light;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  padding-right: 70px;
+  padding-left: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 50px;
+  @media screen and (max-width: 900px) {
+    gap: 10px;
+  }
+  @media screen and (max-width: 800px) {
+    gap: 40px;
+  }
 
+  @media screen and (max-width: 515px) {
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 20px;
+  }
 
-    &_image{
-        height: calc(16.6875rem + ((1vw - 14.4px) * 5.9048));
-        width:calc(21.875rem + ((1vw - 14.4px) * 8.7619));
+  @media screen and (max-width: 425px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
-        @media screen and (max-width: 900px) {
-            height: 180px;
-            width: 220px;
-        }
-
-        @media screen and (max-width: 515px) {
-            height: 205px;
-            width: 258px;
-        }
-    }
-}
-
-.contactUsTitle{
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-size: calc(3.375rem + ((1vw - 14.4px) * 2.4762));
-    font-weight: 500;
+  &_image {
+    height: calc(16.6875rem + ((1vw - 14.4px) * 5.9048));
+    width: calc(21.875rem + ((1vw - 14.4px) * 8.7619));
 
     @media screen and (max-width: 900px) {
-        font-size: 30px;
+      height: 180px;
+      width: 220px;
     }
 
     @media screen and (max-width: 515px) {
-        font-size: 24px;
+      height: 205px;
+      width: 258px;
     }
-    &_bold{
-        font-weight: 800;
-    }
+  }
 }
 
-.contactUsEmail{
-    color: white;
+.contactUsTitle {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: calc(3.375rem + ((1vw - 14.4px) * 2.4762));
+  font-weight: 500;
+
+  @media screen and (max-width: 1008px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 515px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 380px) {
+    font-size: 24px;
+  }
+
+  &_bold {
+    font-weight: 800;
+  }
+}
+
+.contactUsEmail {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration-color: white;
+  // display: flex;
+  // gap:4px;
+  font-weight: 400;
+
+  @media screen and (max-width: 1008px) {
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 900px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 515px) {
+    font-size: 13px;
+  }
+}
+
+a {
+  color: white;
+  font-weight: 600;
+}
+
+.contactusButton {
+  margin-top: 20px;
+
+  @media screen and (max-width: 515px) {
     margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-decoration-color: white;
-    display: flex;
-    gap:4px;
-    font-weight: 400;
-
-    @media screen and (max-width: 900px) {
-        font-size: 15px;
-    }
-
-    @media screen and (max-width: 515px) {
-        font-size: 13px;
-    }
-}
-
-a{
-    color: white;
-    font-weight: 600;
-}
-
-.contactusButton{
+  }
+  &_main {
     background-color: $primaryColor-dark;
     border-radius: 10px;
     padding-top: 8px;
@@ -94,10 +124,11 @@ a{
     font-size: 20px;
 
     @media screen and (max-width: 900px) {
-        font-size: 15px;
+      font-size: 15px;
     }
 
     @media screen and (max-width: 515px) {
-        font-size: 14px;
+      font-size: 12px;
     }
+  }
 }
