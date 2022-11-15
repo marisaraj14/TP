@@ -31,15 +31,15 @@
   text-decoration: none;
   color: white;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 20px;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
   &:hover {
     border: 1px solid $primaryColor;
     background: transparent;
@@ -49,6 +49,7 @@
     margin-left: 0px;
     font-size: 16px;
     padding-left: 20px;
+    font-weight: 500;
     padding-right: 20px;
     margin-top: 10px;
   }
