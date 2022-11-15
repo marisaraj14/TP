@@ -75,7 +75,7 @@ $mobile: 375px;
 }
 
 .navBarContainer {
-  @media screen and (max-width: 811px) {
+  @media screen and (max-width: 1061px) {
     display: none;
   }
 }
@@ -99,6 +99,10 @@ $mobile: 375px;
     background: transparent;
     color: $primaryColor;
   }
+
+  @media screen and (max-width:1091px) {
+    margin-left: 0px;
+  }
   @media screen and (max-width: 933px) {
     margin-left: 15px;
     font-size: 16px;
@@ -107,7 +111,7 @@ $mobile: 375px;
 
 .linkContainer {
   visibility: hidden;
-  @media screen and (max-width: 811px) {
+  @media screen and (max-width: 1061px) {
     visibility: visible;
   }
 }

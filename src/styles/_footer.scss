@@ -1,0 +1,79 @@
+.footer {
+  background: $primaryColor-dark;
+
+  &_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &_linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &_linkText {
+    text-transform: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+}
+
+.navButton {
+  background: $primaryColor;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+
+  &:hover {
+    border: 1px solid $primaryColor;
+    background: transparent;
+    color: $primaryColor;
+  }
+  @media screen and (max-width: 933px) {
+    margin-left: 0px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+}
+
+.subcontainer {
+  &_display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media screen and (max-width: 933px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }
+
+  background: black;
+
+  &_text {
+    color: white;
+    font-family: "Inter", sans-serif;
+    @media screen and (max-width: 933px) {
+      font-size: 14px;
+    }
+  }
+}

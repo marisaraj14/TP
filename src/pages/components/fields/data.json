@@ -6,5 +6,9 @@
   {
     "name": "Why Us",
     "path": "#whyus"
+  },
+  {
+    "name":"About us",
+    "path":"#aboutus"
   }
 ]

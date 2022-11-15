@@ -19,16 +19,12 @@ export default function WhyUs() {
               />
               <p className="whyusCardDesktop_title">{item.title}</p>
               <div className="item__overlay">
-                {/* <p className="whyusCardDesktop_title">{item.title}</p> */}
                 <div className="item__body">
                   <span>
                     {item.description}
                   </span>
                 </div>
               </div>
-              {/* <p className="whyusTextContainer_description">
-                {item.description}
-              </p> */}
             </div>
           </motion.div>
         ))}
