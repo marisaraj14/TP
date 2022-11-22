@@ -57,7 +57,7 @@ export default function NavBar() {
                   </AnchorLink>
                 </motion.button>
               ))}
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button whileHover={{ scale: 1.1 }} className="navButtonContainer">
                 <a href="mailto:admin@techparsona.com" className="navButton">
                   Contact
                 </a>
