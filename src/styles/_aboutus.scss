@@ -6,7 +6,7 @@
 
   &_title {
     color: white;
-    font-size: calc(4rem + ((1vw - 14.4px) * 3.0476));
+    font-size: clamp(1.5rem, 1.148rem + 1.502vw, 2.5rem);
     font-family: "Inter", sans-serif;
     font-weight: 200;
   }
@@ -28,7 +28,7 @@
 
   &_para {
     color: white;
-    font-size:  calc(1.25rem + ((1vw - 14.4px) * 0.381));
+    font-size:  clamp(0.978rem, 0.887rem + 0.476vw, 1.325rem);
     line-height: 25px;
     font-family: "Inter", sans-serif;
     @media screen and (max-width: 800px) {
@@ -55,6 +55,8 @@
   }
 
   &_img{
-    width: calc(28.125rem + ((1vw - 14.4px) * 14.1905));
+    @media screen and (max-width: 515px) {
+      width: 320px;
+    }
   }
 }

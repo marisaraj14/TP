@@ -31,17 +31,9 @@
   }
 
   &_image {
-    height: calc(16.6875rem + ((1vw - 14.4px) * 5.9048));
-    width: calc(21.875rem + ((1vw - 14.4px) * 8.7619));
-
-    @media screen and (max-width: 900px) {
-      height: 180px;
-      width: 220px;
-    }
-
+    width: 37%;
     @media screen and (max-width: 515px) {
-      height: 205px;
-      width: 258px;
+      width: 200px;
     }
   }
 }
@@ -49,7 +41,7 @@
 .contactUsTitle {
   color: white;
   font-family: "Inter", sans-serif;
-  font-size: calc(3.375rem + ((1vw - 14.4px) * 2.4762));
+  font-size: clamp(1.5rem, 1.148rem + 1.502vw, 2.5rem);
   font-weight: 500;
 
   @media screen and (max-width: 1008px) {
