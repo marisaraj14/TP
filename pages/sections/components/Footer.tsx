@@ -1,4 +1,4 @@
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 import Layout from "./Layout";
 import fields from "./fields/data.json";
 

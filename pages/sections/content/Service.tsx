@@ -1,5 +1,5 @@
 import { motion, Variants } from "framer-motion";
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 import Layout from "../components/Layout";
 import serviceList from "./data/services.json";
 

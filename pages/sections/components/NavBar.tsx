@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 import fields from "./fields/data.json";
 import Layout from "./Layout";
 
@@ -9,7 +9,7 @@ export default function NavBar() {
   const [modal, setOpenModal] = useState<boolean>(false);
 
   return (
-    <>
+    <div>
       {modal && (
         <div className="modalContainer">
           <img
@@ -40,7 +40,7 @@ export default function NavBar() {
       )}
       <div className="navContainer">
         <Layout>
-          <motion.p
+          <motion.div
             animate={{ y: 10 }}
             transition={{ type: "spring", duration: 0.7 }}
           >
@@ -77,9 +77,9 @@ export default function NavBar() {
                 </motion.button>
               </div>
             </div>
-          </motion.p>
+          </motion.div>
         </Layout>
       </div>
-    </>
+    </div>
   );
 }

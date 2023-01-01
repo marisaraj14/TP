@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 
 export default function ContactUs() {
   return (

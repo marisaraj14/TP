@@ -1,5 +1,5 @@
 import reasons from "./data/whyus.json";
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 import { motion } from "framer-motion";
 
 export default function WhyUs() {

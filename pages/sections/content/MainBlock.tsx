@@ -1,4 +1,4 @@
-import "../../styles/index.scss";
+// import "../../styles/index.scss";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import NavBar from "../components/NavBar";
@@ -10,7 +10,7 @@ import WhyUs from "./WhyUs";
 
 export default function MainBlock() {
   return (
-    <>
+    <div>
       <NavBar />
       <Layout>
         <MainContent />
@@ -24,6 +24,6 @@ export default function MainBlock() {
         <ContactUs />
       </Layout>
       <Footer/>
-    </>
+    </div>
   );
 }
