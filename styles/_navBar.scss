@@ -14,10 +14,9 @@ $mobile: 375px;
 .navContainer {
   padding-top: 4px;
   top: 0;
-
+  position: -webkit-sticky;
   position: sticky;
   padding-bottom: 20px;
-
   z-index: 100;
   background-color: rgb(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);

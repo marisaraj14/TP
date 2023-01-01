@@ -13,6 +13,11 @@ export default function Home() {
           Tech Parsona - We provide the right Oracle solutions for you.
         </title>
         <link type="stylesheet" href="../src/styles/index.scss" />
+        <link
+          rel="canonical"
+          href="https://techparsona.com/"
+          key="canonical"
+        />
         <meta
           name="description"
           content="TechParsona is created by seasoned experts with a track record of
