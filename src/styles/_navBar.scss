@@ -12,10 +12,11 @@ $mobile: 375px;
 }
 
 .navContainer {
-  padding-top: 25px;
+  padding-top: 4px;
   position: sticky;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   top: 0;
+
   z-index: 100;
   background-color: rgb(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
@@ -29,7 +30,7 @@ $mobile: 375px;
 
   &__image {
     width: 80px !important;
-    height: 68px !important;
+    height: 76px !important;
     @media screen and (max-width: $tablet) {
       width: 60px !important;
       height: 54px !important;
@@ -41,15 +42,7 @@ $mobile: 375px;
     gap: 15px;
     align-items: center;
   }
-  &__imagetext {
-    width: 300px !important;
-    height: 26px !important;
-
-    @media screen and (max-width: $tablet) {
-      width: 200px !important;
-      height: 20px !important;
-    }
-  }
+  
   @media screen and (max-width: $tablet) {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -75,13 +68,13 @@ $mobile: 375px;
 }
 
 .fields {
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
   color: black;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
 
   &:hover {
     color: $primaryColor;
@@ -104,8 +97,8 @@ $mobile: 375px;
 }
 
 .navButtonContainer {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   -webkit-padding-before: 5px;
   -moz-padding-before: 5px;
   -webkit-padding-after: 5px;
@@ -116,20 +109,20 @@ $mobile: 375px;
   background: $primaryColor;
   text-decoration: none;
   color: white;
-  border-radius: 15px;
-  font-size: 20px;
+  border-radius: 10px;
+  font-size: 17px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   padding-left: 25px;
-  margin-left: 30px;
+  margin-left: 50px;
   padding-right: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
   &:hover {
-    border: 1px solid $primaryColor;
-    background: transparent;
-    color: $primaryColor;
+    // border: 2px solid $primaryColor-dark;
+    background: $primaryColor-light;
+    color: $primaryColor-dark;
   }
 
   @media screen and (max-width: 1091px) {

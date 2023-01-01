@@ -3,8 +3,8 @@
   flex-direction: row;
   margin-top: 40px;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
+  justify-content:center;
+  gap: 40px;
 
   @media screen and (max-width: 602px) {
     gap:10px;
@@ -22,39 +22,25 @@
 }
 
 .deskman {
-  width: 506px;
-  height: 550px;
+  width: 406px;
+  height: 450px;
 
-  @media screen and (max-width: 1386px) {
-    width: 406px;
-    height: 450px;
-  }
-
-  @media screen and (max-width: 988px) {
-    width: 276px;
-    height: 300px;
-  }
-  @media screen and (max-width: 870px) {
-    width: 286px;
-    height: 320px;
+  @media screen and (max-width: 1024px) {
+    width: 306px;
+    height: 350px;
   }
 
   @media screen and (max-width: 800px) {
-    width: 440px;
-    height: 340px;
-  }
-
-  @media screen and (max-width:650px) {
-    width: 360px;
+    width: 290px;
     height: 280px;
   }
 
-  @media screen and (max-width:515px) {
-    width: 320px;
-    height: 360px;
+  @media screen and (max-width:728px) {
+  width: 206px;
+  height: 220px;
   }
 
-  @media screen and (max-width: $mobile) {
+  @media screen and (max-width: 515px) {
     width: 260px;
     height: 300px;
   }
@@ -63,8 +49,7 @@
 .maintitle {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: clamp(1.5rem, 1.148rem + 1.502vw, 2.5rem);
-
+  font-size: 50px;
   line-height: 150%;
 
   
@@ -77,48 +62,31 @@
     color: $primaryColor;
   }
 
-  @media screen and (max-width:2650px){
-    font-size: 80px;
-  }
-
-  @media screen and (max-width: 2097px) {
-    font-size: 65px;
-  }
-
-  @media screen and (max-width: 1899px) {
-    font-size: 45px;
-  }
-  @media screen and (max-width: 1582px) {
-    font-size: 35px;
-  }
-  @media screen and (max-width: 1440px) {
-    font-size:calc(3.75rem + (1vw - 14.4px) * 3.2143);
-  }
-  @media screen and (max-width: 1386px) {
-    font-size: 55px;
-  }
-
-  @media screen and (max-width:1231px) {
+  @media screen and (max-width: 1024px) {
     font-size: 40px;
-    
-  }
-  @media screen and (max-width: 988px) {
-    font-size: 36px;
   }
 
-  @media screen and (max-width: 870px) {
-    font-size: 28px;
+  @media screen and (max-width: 900px) {
+    font-size: 35px;
   }
 
   @media screen and (max-width: 800px) {
-    font-size: 32px;
+    font-size: 30px;
   }
 
-  @media screen and (max-width:650px) {
-    font-size: 26px;
+  @media screen and (max-width:728px) {
+    font-size:25px;
   }
 
-  @media screen and (max-width: $mobile) {
-    font-size: 24px;
+  @media screen and (max-width:561px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 515px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 377px) {
+    font-size: 22px;
   }
 }

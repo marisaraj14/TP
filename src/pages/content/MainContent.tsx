@@ -7,7 +7,7 @@ export default function MainContent() {
       <img src="/media/deskman.png" className="deskman" alt="Man on a desk" />
       <motion.p animate={{ y: -10 }} transition={{ duration: 0.7 }}>
         <span className="maintitle">
-          We provide the right{" "}
+          We provide the {" "}<br/>
           <motion.span
             whileHover={{
               scale: 1.15,
@@ -17,9 +17,9 @@ export default function MainContent() {
             className="maintitle_highlight"
             transition={{ scale: { type: "spring", stiffness: 500 } }}
           >
-            Oracle Solutions
+            right Oracle Solutions
           </motion.span>
-          {" "} for you
+          <br/> {" "} for you
           <span className="maintitle_dot">.</span>
         </span>
       </motion.p>

@@ -10,7 +10,7 @@ export default function Footer() {
           {fields.map((item)=>(
             <a href={item.path} className="footer_linkText">{item.name}</a>
           ))}
-          <a href="mailto:admin@techparsona.com" className="navButton">
+          <a href="mailto:admin@techparsona.com" className="navButton" style={{marginLeft:'-0px'}}>
             Contact Us
           </a>
         </div>

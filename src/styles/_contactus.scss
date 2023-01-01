@@ -17,11 +17,14 @@
   @media screen and (max-width: 800px) {
     gap: 40px;
   }
+  @media screen and (max-width: 700px) {
+    gap: 10px;
+  }
 
-  @media screen and (max-width: 515px) {
+  @media screen and (max-width: 598px) {
     flex-direction: column;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     gap: 20px;
   }
 
@@ -30,10 +33,27 @@
     padding-left: 20px;
   }
 
+  @media screen and (max-width: 375px) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
   &_image {
     width: 37%;
+    @media screen and (max-width:598px) {
+      width: 300px;
+    }
     @media screen and (max-width: 515px) {
       width: 200px;
+    }
+  }
+
+  &_sub{
+    display: flex;
+    flex-direction: column;
+    gap:calc(0.9375rem + ((1vw - 14.4px) * 0.5357));
+    @media screen and (max-width:320px) {
+      gap:4px;
     }
   }
 }
@@ -44,24 +64,25 @@
   font-size: clamp(1.5rem, 1.148rem + 1.502vw, 2.5rem);
   font-weight: 500;
 
-  @media screen and (max-width: 1008px) {
-    font-size: 28px;
-  }
-
   @media screen and (max-width: 768px) {
     font-size: 30px;
   }
 
-  @media screen and (max-width: 515px) {
+  @media screen and (max-width: 736px) {
     font-size: 24px;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 598px) {
     font-size: 28px;
   }
-
+  @media screen and (max-width: 425px) {
+    font-size: 24px;
+  }
   @media screen and (max-width: 380px) {
     font-size: 24px;
   }
+  @media screen and (max-width:320px) {
+  
+  font-size: 20px;}
 
   &_bold {
     font-weight: 800;
@@ -70,25 +91,36 @@
 
 .contactUsEmail {
   color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
   font-size: 20px;
   text-decoration-color: white;
-  // display: flex;
-  // gap:4px;
   font-weight: 400;
 
   @media screen and (max-width: 1008px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   @media screen and (max-width: 900px) {
     font-size: 15px;
   }
 
-  @media screen and (max-width: 515px) {
+  @media screen and (max-width: 736px) {
     font-size: 13px;
   }
+
+  @media screen and (max-width: 676px) {
+    font-size: 12px;
+  }
+
+  @media screen and (max-width:598px) {
+    font-size:16px;
+  }
+  @media screen and (max-width:424px) {
+    font-size:12px;
+  }
+  @media screen and (max-width:320px) {
+    font-size:10px;
+  }
+  
 }
 
 a {
@@ -99,7 +131,7 @@ a {
 .contactusButton {
   margin-top: 20px;
 
-  @media screen and (max-width: 515px) {
+  @media screen and (max-width: 736px) {
     margin-top: 10px;
   }
   &_main {
@@ -109,16 +141,30 @@ a {
     padding-bottom: 8px;
     padding-right: 25px;
     padding-left: 25px;
-    margin-top: 40px;
     text-decoration: none;
     font-size: 20px;
 
+    @media screen and (max-width: 1008px) {
+      font-size: 16px;
+    }
+  
     @media screen and (max-width: 900px) {
       font-size: 15px;
     }
 
-    @media screen and (max-width: 515px) {
+    @media screen and (max-width: 736px) {
       font-size: 12px;
+    }
+
+    @media screen and (max-width:598px) {
+      font-size:16px;
+    }
+
+    @media screen and (max-width:424px) {
+      font-size:14px;
+    }
+    @media screen and (max-width:320px) {
+      font-size:10px;
     }
   }
 }

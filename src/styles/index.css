@@ -77,31 +77,7 @@
   }
 }
 
-.navButton {
-  background: #4b8eb0;
-  text-decoration: none;
-  color: white;
-  border-radius: 15px;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  padding-left: 25px;
-  margin-left: 30px;
-  padding-right: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.navButton:hover {
-  border: 1px solid #4b8eb0;
-  background: transparent;
-  color: #4b8eb0;
-}
-@media screen and (max-width: 933px) {
-  .navButton {
-    margin-left: 15px;
-    font-size: 16px;
-  }
-}
+
 
 .linkContainer {
   visibility: hidden;
@@ -646,9 +622,9 @@ button {
   font-weight: 800;
 }
 
-.contactUsEmail {
+/* .contactUsEmail {
   color: white;
-  margin-top: 10px;
+  margin-top: 90px;
   margin-bottom: 20px;
   font-size: 20px;
   -webkit-text-decoration-color: white;
@@ -669,7 +645,7 @@ button {
   .contactUsEmail {
     font-size: 13px;
   }
-}
+} */
 
 a {
   color: white;

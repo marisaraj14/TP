@@ -45,22 +45,11 @@ export default function NavBar() {
             transition={{ type: "spring", duration: 0.7 }}
           >
             <div className="navContainer__flex">
-              <div className="navContainer__flexbox ">
                 <img
-                  src="./media/textlogo.png"
+                  src="./media/logo.png"
                   alt="Logo"
                   className="navContainer__image"
                 />
-
-                <img
-                  src="./media/logotext_2.png"
-                  alt="Logo"
-                  className="navContainer__imagetext"
-                />
-              </div>
-              {/* <span className="logoText">
-              Tech <span className="logoText__color">Parsona</span>
-            </span> */}
               <img
                 src="/media/svg/navBarIcon.svg"
                 alt="links"

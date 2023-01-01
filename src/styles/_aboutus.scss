@@ -1,8 +1,8 @@
 .aboutus {
   background: $primaryColor;
   margin-bottom: 60px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   &_title {
     color: white;
@@ -28,8 +28,9 @@
 
   &_para {
     color: white;
-    font-size:  clamp(0.978rem, 0.887rem + 0.476vw, 1.325rem);
-    line-height: 25px;
+    // font-size:  clamp(0.978rem, 0.887rem + 0.476vw, 1.325rem);
+    line-height: 30px;
+    font-size: 18px;
     font-family: "Inter", sans-serif;
     @media screen and (max-width: 800px) {
       padding-left: 20px;
