@@ -27,9 +27,10 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "export": "next export"
   },
   "browserslist": {
     "production": [
