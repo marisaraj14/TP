@@ -9,7 +9,7 @@ export default function NavBar() {
   const [modal, setOpenModal] = useState<boolean>(false);
 
   return (
-    <div>
+    <>
       {modal && (
         <div className="modalContainer">
           <img
@@ -80,6 +80,6 @@ export default function NavBar() {
           </motion.div>
         </Layout>
       </div>
-    </div>
+    </>
   );
 }
