@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="./media/logo.png" />
+        <link rel="icon" href="../public/media/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <title>
@@ -19,12 +19,22 @@ export default function Home() {
           content="TechParsona is created by seasoned experts with a track record of
     professional, academic, and technological achievements."
         />
-        <meta property="og:title" content="Tech Parsona - We provide the right Oracle solutions for you." />
+        <link
+          rel="search"
+          type="application/opensearchdescription+xml"
+          title="Tech Parsona"
+        />
+        <meta
+          property="og:title"
+          content="Tech Parsona - We provide the right Oracle solutions for you."
+        />
+        <meta property="og:site_name" content="Tech Parsona"></meta>
         <meta
           property="og:description"
           content="TechParsona is created by seasoned experts with a track record of
           professional, academic, and technological achievements."
         />
+        <meta property="og:image" itemProp="../public/media/logo.png"/>
         <meta property="og:url" content="https://techparsona.com/" />
         <meta property="og:type" content="website" />
       </Head>
