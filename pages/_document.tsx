@@ -5,7 +5,7 @@ import Home from ".";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head>
+      <Head prefix="og: https://ogp.me/ns#">
         <link rel="icon" href="../public/media/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
@@ -28,7 +28,7 @@ export default function Document() {
           property="og:title"
           content="Tech Parsona - We provide the right Oracle solutions for you."
         />
-        <meta property="og:site_name" content="Tech Parsona"></meta>
+        <meta property="og:site_name" content="Tech Parsona"/>
         <meta
           property="og:description"
           content="TechParsona is created by seasoned experts with a track record of
