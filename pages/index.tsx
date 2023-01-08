@@ -38,9 +38,9 @@ export default function Home() {
         <meta property="og:url" content="https://techparsona.com/" />
         <meta property="og:type" content="website" />
       </Head>
-      <main>
+      {/* <main>
         <MainBlock />
-      </main>
+      </main> */}
     </>
   );
 }
