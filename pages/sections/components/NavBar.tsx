@@ -45,11 +45,12 @@ export default function NavBar() {
             transition={{ type: "spring", duration: 0.7 }}
           >
             <div className="navContainer__flex">
+              <a href="#home">
                 <img
                   src="./media/logo.png"
                   alt="Logo"
                   className="navContainer__image"
-                />
+                /></a>
               <img
                 src="/media/svg/navBarIcon.svg"
                 alt="links"

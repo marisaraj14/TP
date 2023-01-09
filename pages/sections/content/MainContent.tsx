@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function MainContent() {
   return (
-    <div className="mainContent_container">
+    <div className="mainContent_container" id="home">
       <img src="/media/deskman.png" className="deskman" alt="Man on a desk" />
       <motion.p animate={{ y: -10 }} transition={{ duration: 0.7 }}>
         <span className="maintitle">
